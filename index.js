@@ -46,7 +46,7 @@ app.post('/send', async (req, res) => {
 });
 
 // Iniciar servidor Express
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 app.listen(PORT, '0.0.0.0', () => {
     const networkInterfaces = os.networkInterfaces();
