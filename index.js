@@ -15,7 +15,7 @@ const client = new Client({
 
 // Generar QR para vincular
 client.on('qr', qr => {
-    console.log('📲 Escanea este QR con tu WhatsApp:');
+    console.log('Escanea este QR con tu WhatsApp:');
     qrcode.generate(qr, { small: true });
 });
 
@@ -34,7 +34,7 @@ app.post('/send', async (req, res) => {
         }
 
         // Formato internacional (ej: México 521XXXXXXXXXX)
-        const chatId = `${number}@c.us`;
+        const chatId = `${number}@g.us`;
 
         await client.sendMessage(chatId, message);
         res.json({ status: 'success', message: `Mensaje enviado a ${number}` });

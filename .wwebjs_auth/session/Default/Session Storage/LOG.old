@@ -1,3 +1,2 @@
-2025/09/29-20:44:11.808 7d74 Reusing MANIFEST C:\Users\jorge\Documents\WhatsApp-server\.wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
-2025/09/29-20:44:11.809 7d74 Recovering log #3
-2025/09/29-20:44:11.810 7d74 Reusing old log C:\Users\jorge\Documents\WhatsApp-server\.wwebjs_auth\session\Default\Session Storage/000003.log 
+2025/11/05-22:44:09.957 c5b0 Creating DB C:\Users\jorge\Documents\WhatsApp-server\.wwebjs_auth\session\Default\Session Storage since it was missing.
+2025/11/05-22:44:09.962 c5b0 Reusing MANIFEST C:\Users\jorge\Documents\WhatsApp-server\.wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
